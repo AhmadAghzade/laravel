@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'samim';
+        src: url("../../public/assets/fonts/samim-font-v2.0.1/Samim.woff") format("truetype"),
+            url("../../public/assets/fonts/samim-font-v2.0.1/Samim-Bold.woff") format("truetype"),
+            url("../../public/assets/fonts/samim-font-v2.0.1/Samim.woff2") format("truetype"),
+            url("../../public/assets/fonts/samim-font-v2.0.1/Farsi-Digits/Samim-FD.woff") format("truetype");
+    }
+}
